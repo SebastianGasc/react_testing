@@ -20,7 +20,7 @@ export function App(){
         console.log(resta);
         
         return resta;
-    };
+    };G
 
     const botonMultiplicar= () =>{
         const num1 = numeroUno.current.value;
