@@ -5,7 +5,7 @@ export function App(){
     let numeroUno=useRef();
     let numeroDos=useRef();
     const botonSuma= () =>{
-        const num1 = parseInt(numeroUno.current.value);
+        const num1 = parseInt(numeroUno.current.value); // comentario de prueba
         const num2 = parseInt(numeroDos.current.value);
         var suma = num1+num2;
         console.log(suma);
