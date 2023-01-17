@@ -5,8 +5,8 @@ export function App(){
     let numeroUno=useRef();
     let numeroDos=useRef();
     const botonSuma= () =>{
-        const num1 = parseInt(numeroUno.current.value);
-        const num2 = parseInt(numeroDos.current.value);
+        const num1 = numeroUno.current.value;
+        const num2 = numeroDos.current.value;
         var suma = num1+num2;
         console.log(suma);
         
@@ -14,8 +14,8 @@ export function App(){
     };
 
     const botonResta= () =>{
-        const num1 = parseInt(numeroUno.current.value);
-        const num2 = parseInt(numeroDos.current.value);
+        const num1 = numeroUno.current.value;
+        const num2 = numeroDos.current.value;
         var resta = num1-num2;
         console.log(resta);
         
@@ -23,8 +23,8 @@ export function App(){
     };
 
     const botonMultiplicar= () =>{
-        const num1 = parseInt(numeroUno.current.value);
-        const num2 = parseInt(numeroDos.current.value);
+        const num1 = numeroUno.current.value;
+        const num2 = numeroDos.current.value;
         var mult = num1*num2;
         console.log(mult);
         
@@ -32,8 +32,8 @@ export function App(){
     };
 
     const botonDividir= () =>{
-        const num1 = parseInt(numeroUno.current.value);
-        const num2 = parseInt(numeroDos.current.value);
+        const num1 = numeroUno.current.value;
+        const num2 = numeroDos.current.value;
         var division = num1/num2;
         console.log(division);
         
